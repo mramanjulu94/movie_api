@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mramanjulu94/movie_api#readme",
   "devDependencies": {
     "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "morgan": "^1.9.1"
   }
 }
