@@ -158,19 +158,19 @@ let Directors = [
   {
     name: 'Brett Ratner',
     born: 'March 28, 1969'
-  }
+  },
   {
     name: 'Quentin Tarantino',
     born: 'March 27, 1963'
-  }
+  },
   {
     name: 'Doug Liman',
     born: 'July 24, 1965'
-  }
+  },
   {
     name: 'Danny Boyle',
     born: 'October 20, 1956'
-  }
+  },
   {
     name: 'Francis Ford Coppola',
     born: 'APril 7, 1939'
@@ -182,10 +182,10 @@ let Directors = [
 let Users = [
     {
         id : 1,
-        username : 'jonedoe123',
+        username : 'mramanjulu94',
         password : 'password123',
         email : 'example@gmail.com',
-        date_of_birth : "January 1, 1966",
+        date_of_birth : "September 14, 1994",
         Favorites : {
 
         }
@@ -197,35 +197,15 @@ let Users = [
 
 
 let Favorites = [
-
+{
 
   title: 'The Dark Knight',
   description: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice',
   genre: 'Action',
   director: 'Christopher Nolan',
-  image:
-
+  image: 'darkknight.jpg'
+}
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 app.get("/movies", function(req, res) {
     res.json(Movies)
